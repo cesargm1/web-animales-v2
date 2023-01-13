@@ -1,28 +1,35 @@
-
-* {
-    margin: 0;
-    padding: 0;
+:root {
+    --body-bg: #FFFFFF;
+    --body-color: #000000;
+    --nav-header-bg-color: rgb(154, 206, 241);
+    --nav-header-fg-color: rgb(39, 39, 39);
+    --nav-footer-bg-color: rgb(38, 38, 38);
+    --nav-footer-fg-color: rgb(186, 186, 186);
+    --enlace-color : rgb(24, 22, 22);
 }
-
-/*modo claro*/
-@media (prefers-color-scheme: light) {
-    :root {
-        --body-bg: #FFFFFF;
-        --body-color: #000000;
-        --nav-footer-bg-color: rgb(154, 206, 241);
-        --enlace-color : rgb(24, 22, 22);
-    }
- }
 
  /*modo oscuro*/
  @media (prefers-color-scheme: dark) {
     :root {
-        --body-bg: #000000;
-        --body-color: #FFFFFF;
-        --nav-footer-bg-color: rgb(2, 2, 2);
-        --enlace-color : rgb(20, 19, 19);
     }
  }
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.hidden {
+    display: none !important;
+}
+
+a {
+    text-decoration: none;
+    color: var(--enlace-color);
+    cursor: pointer;
+}
+
 
 body {
     width: 100%;
@@ -34,8 +41,8 @@ body {
 
 
 header {
-    background-color: var(--nav-footer-bg-color);
-    color: white;
+    background-color: var(--nav-header-bg-color);
+    color: var(--nav-header-fg-color);
     position: fixed;
     height: 60px;
     width: 100%;
@@ -43,8 +50,7 @@ header {
     z-index: 10;
 }
 
-
-ul{
+header ul{
     list-style: none;
     display: flex;
     align-items: center;
@@ -53,42 +59,33 @@ ul{
 }
 
 
-.ul--li--img{
-    width: 45%;
-    height: 100%;
+header .ul--li--img{
+    width: 36px;
+    height: 36px;
     border-radius: 50%;
-}  
+}
 
-.ul__li__a-casa{
+header .ul__li__a-casa{
     width: 30%;
     height: 80%;
     border-radius: 50%;
 }
 
 
-li{
+header li{
     font-size: 17px;
     text-decoration: none;
     width: 10%;
     height: 50%;
 }
 
-
-
-a{
-    text-decoration: none;
-    color: var(--enlace-color);
-    cursor: pointer;
-}
-
-
-.nav__menu {
+header .nav__menu {
     position: relative;
     align-items: center;
     justify-content: space-evenly;
 }
 
-.submenu {
+header .submenu {
     position: absolute;
     background-color: aliceblue;
     color: #434343;
@@ -100,31 +97,28 @@ a{
     box-shadow: rgba(75, 37, 37, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
-.submenu a {
+header .submenu a {
     color: #434343;
-}
-
-.hidden {
-    display: none;
 }
 
 main {
     margin-top: 60px;
-    background: url(/Recursos/imagenes/dia-de-los-animales.jpg);
+    background: url(/recursos/imagenes/dia-de-los-animales.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     flex: 1;
+    padding: 1em;
 }
 
 
-footer{
+footer {
     background-color: var(--nav-footer-bg-color);
-    color: white;
+    color: var(--nav-footer-fg-color);
     padding: 30px;
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-
+    text-align: center;
 }
 
+footer a {
+    color: var(--nav-footer-fg-color);
+}

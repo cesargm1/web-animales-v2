@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>sobre mi </title>
+    <link rel="stylesheet" href="/css/style.css">
     <link rel="stylesheet" href="/css/sobre-mi.css">
     <script src="/javascript/index.js"></script>
 </head>
@@ -14,35 +15,30 @@
 
     <header>
         <nav>
-            <ul class="nav-menu">
+           <ul class="nav__menu">
 
-                <li><a title="home" href="./index.html"><img class="ul--li--img-casa" src="/Recursos/imagenes/casa.png"
-                            alt="incio"></a></li>
+              <li>
+                 <a title="home" href="/html"><img class="ul__li__a-casa" src="/recursos/imagenes/casa.png" alt="incio"></a>
+              </li>
+              <li><a href="/html/sobre-mi.html">sobre mi</a></li>
+              <li onmouseenter="openMenu()" onmouseleave="closeMenu()">
+                 <a href="#" id="type_animals" >tipos animales</a>
 
-                <li><a href="./sobre-mi.html">sobre mi</a></li>
+                 <ul class="submenu hidden" id="submenu_type_animals">
+                    <li><a href="/html/tipos-de-animales/perros.html">Perros</a></li>
+                    <li><a href="/html/tipos-de-animales/gatos.html">Gatos</a></li>
+                    <li><a href="/html/tipos-de-animales/caballos.html">Caballos</a></li>
+                    <li><a href="/html/tipos-de-animales/peces.html">Peces</a></li>
+                 </ul>
+              </li>
+              <li><img class="ul--li--img" src="/recursos/imagenes/gato.avif" alt="gato"></li>
 
-
-                <li>
-                    <a href="#" id="type_animals" onclick="toggleMenu()">tipos animales</a>
-
-                    <ul class="submenu hidden" id="submenu_type_animals" onclick="closeMenu()">
-                        <li><a href="/html/perros.html">Perros</a></li>
-                        <li><a href="/html/gatos.html">Gatos</a></li>
-                        <li><a href="/html/caballos.html">Caballos</a></li>
-                        <li><a href="/html/peces.html">Peces</a></li>
-                    </ul>
-                </li>
-                <li><img class="ul--li--img" src="/Recursos/imagenes/gato.avif" alt="gato"></li>
-
-                <li><a title="mis-projectos" href="https://github.com/cesargm1"><img class="ul--li--img-github"
-                            src="/Recursos/imagenes/github-mark-white.png" alt="github"></a></li>
-            </ul>
+           </ul>
         </nav>
     </header>
 
-    <h1>sobre mi </h1>
-
     <main class="todas-las-tarjetas">
+        <h1>sobre mi </h1>
 
         <section>
             <article class="tarjeta">
@@ -96,6 +92,10 @@
             </article>
         </section>
     </main>
+
+    <footer>
+        Copyright &copy; 2023. Created by <a href="/html/sobre-mi.html">César</a>
+    </footer>
 
 </body>
 
