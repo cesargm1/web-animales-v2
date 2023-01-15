@@ -1,0 +1,10 @@
+body{
+    min-height: 100vh;
+}
+main{
+    background: url(/recursos/imagenes/dia-de-los-animales.jpg);
+    background-size: cover;
+}
+.background ::-webkit-scrollbar {
+   overflow: hidden;
+}
