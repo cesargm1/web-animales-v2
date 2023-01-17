@@ -7,3 +7,4 @@ function closeMenu() {
   console.log('close menu')
   document.getElementById('submenu_type_animals').classList.add('hidden')
 }
+
