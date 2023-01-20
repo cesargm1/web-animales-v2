@@ -32,9 +32,22 @@
     width: 150px;
     height: 150px;
     border-radius: 15px;
+    object-fit: cover;
 }
 
-.animales__item a{
+.hidden{
+    display: none;
+
+}
+
+.more-info  {
+     display: flex;
+     flex-direction: column;
+     gap: 8px;
+}
+
+.animales__item a, 
+.animales__item button {
     background-color: rgb(44, 43, 43);
     width: 100%;
     padding: .3em;
