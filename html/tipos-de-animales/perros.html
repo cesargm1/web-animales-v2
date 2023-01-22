@@ -6,9 +6,10 @@
    <meta http-equiv="X-UA-Compatible" content="IE=edge">
    <meta name="viewport" content="width=device-width, initial-scale=1.0">
    <title>perros</title>
-   <link rel="stylesheet" href="/css/style.css">
-   <link rel="stylesheet" href="/css/animales.css">
-   <script src="/javascript/index.js"></script>
+   <meta name="description" content="información sobre perros">
+   <link rel="stylesheet" href="../../css/style.css">
+   <link rel="stylesheet" href="../../css/animales.css">
+   <script src="../../javascript/index.js"></script>
 </head>
 
 <body>
@@ -18,21 +19,21 @@
          <ul class="nav__menu">
 
             <li>
-               <a title="home" href="/html"><img class="ul__li__a-casa" src="/recursos/imagenes/logos/casa.png"
-                     alt="incio"></a>
+               <a title="home" href="../../html"><img class="ul__li__a-casa"
+                     src="../../recursos/imagenes/logos/casa.png" alt="incio"></a>
             </li>
-            <li><a href="/html">sobre mi</a></li>
+            <li><a href="../../html">sobre mi</a></li>
             <li onmouseenter="openMenu()" onmouseleave="closeMenu()">
                <a href="#" id="type_animals">tipos animales</a>
 
                <ul class="submenu hidden" id="submenu_type_animals">
-                  <li><a href="/html/tipos-de-animales/perros.html">Perros</a></li>
-                  <li><a href="/html/tipos-de-animales/gatos.html">Gatos</a></li>
-                  <li><a href="/html/tipos-de-animales/caballos.html">Caballos</a></li>
-                  <li><a href="/html/tipos-de-animales/peces.html">Peces</a></li>
+                  <li><a href="../../html/tipos-de-animales/perros.html">Perros</a></li>
+                  <li><a href="../../html/tipos-de-animales/gatos.html">Gatos</a></li>
+                  <li><a href="../../html/tipos-de-animales/caballos.html">Caballos</a></li>
+                  <li><a href="../../html/tipos-de-animales/peces.html">Peces</a></li>
                </ul>
             </li>
-            <li><img class="ul--li--img" src="/Recursos/imagenes/logos/gato.avif" alt="gato"></li>
+            <li><img class="ul--li--img" src="../../Recursos/imagenes/logos/gato.avif" alt="gato"></li>
 
          </ul>
       </nav>
@@ -51,7 +52,7 @@
       <section class="animales">
 
          <section class="animales__item">
-            <img src="/Recursos/imagenes/perros/perros-grandes/perro-labrador.jpg" alt="perro labrador">
+            <img src="../../Recursos/imagenes/perros/perros-grandes/perro-labrador.jpg" alt="perro labrador">
             <h2>Labrador</h2>
             <p>
                El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
@@ -76,7 +77,7 @@
          </section>
 
          <section class="animales__item">
-            <img src="/Recursos/imagenes/perros/perros-grandes/pastor-aleman.jpeg" alt="pastor aleman">
+            <img src="../../Recursos/imagenes/perros/perros-grandes/pastor-aleman.jpeg" alt="pastor aleman">
             <h2> Pastor Aleman</h2>
 
             <p>
@@ -102,74 +103,139 @@
          </section>
 
          <section class="animales__item">
-            <img src="/Recursos/imagenes/perros/perros-grandes/dalmata.jpg" alt="Dalmata">
+            <img src="../../Recursos/imagenes/perros/perros-grandes/dalmata.jpg" alt="Dalmata">
             <h2> Dalmata</h2>
             <p>
                Los perros Dalmata son una raza de perro originaria de Croacia. Son conocidos por su pelaje blanco con
                manchas negras, marrones o grises. Son perros activos y juguetones, y se adaptan bien a la vida en
-               familia.
-               Los Dalmatas son comúnmente utilizados como perros de compañía y también se utilizan como perros
-               de rescate, perros guía y perros de trabajo. Tienen una esperanza de vida de alrededor de 10-13 años.
-            </p>
-            <a id="hiden_text_link" title="mas informacion" target="_blank"
-               href="https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)">mas
-               informacion</a>
+               familia.</p>
+
+            <button id="hiden-text-3" onclick="toggleText(3)">ver mas</button>
+
+            <div id="more-info-3" class="hidden more-info">
+
+               <p>
+                  Los Dalmatas son comúnmente utilizados como perros de compañía y también se utilizan como perros
+                  de rescate, perros guía y perros de trabajo. Tienen una esperanza de vida de alrededor de 10-13 años.
+               </p>
+               <div> <a id="hiden_text_link" title="mas informacion" target="_blank"
+                     href="https://es.wikipedia.org/wiki/D%C3%A1lmata_(perro)">mas
+                     informacion</a>
+               </div>
+
+            </div>
          </section>
 
          <section class="animales__item">
-            <img src="/recursos/imagenes/perros/perros-grandes/san-bernardo.jpg" alt="san bernardo">
+            <img src="../../recursos/imagenes/perros/perros-grandes/san-bernardo.jpg" alt="san bernardo">
             <h2> San bernardo</h2>
             <p>El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
-               excelente compañero de familia. Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
-               quedan solos, pueden adoptar comportamientos destructivos.
-            </p>
+               excelente compañero de familia.</p>
+            <button id="hiden-text-4" onclick="toggleText(4)">ver mas</button>
 
-            <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
-               informacion</a>
+            <div id="more-info-4" class="hidden more-info">
+
+
+               <p> Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
+                  quedan solos, pueden adoptar comportamientos destructivos.</p>
+
+               <div> <a title="mas informacion" target="_blank"
+                     href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
+                     informacion</a>
+               </div>
+            </div>
+
          </section>
 
          <section class="animales__item">
-            <img src="/recursos/imagenes/perros/perros-pequeños/bulldog.jpg" alt="bulldog">
+            <img src="../../recursos/imagenes/perros/perros-pequeños/bulldog.jpg" alt="bulldog">
             <h2> Buldog</h2>
             <p>El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
-               excelente compañero de familia. Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
-               quedan solos, pueden adoptar comportamientos destructivos.
+               excelente compañero de familia.
             </p>
-            <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
-               informacion</a>
+
+            <button id="hiden-text-5" onclick="toggleText(5)">ver mas</button>
+            <div id="more-info-5" class="hidden more-info">
+               <p> Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
+                  quedan solos, pueden adoptar comportamientos destructivos.
+               </p>
+               <div>
+                  <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
+                     informacion</a>
+               </div>
+
+            </div>
+
+
+
          </section>
 
          <section class="animales__item">
-            <img src="/recursos/imagenes/perros/perros-pequeños/jack-russell-terrier.jpg" alt="jack russell terrier">
+            <img src="../../recursos/imagenes/perros/perros-pequeños/jack-russell-terrier.jpg"
+               alt="jack russell terrier">
             <h2> Jack Russell Terrier</h2>
             <p>El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
-               excelente compañero de familia. Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
-               quedan solos, pueden adoptar comportamientos destructivos.
-            </p>
-            <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
-               informacion</a>
+               excelente compañero de familia.</p>
+
+            <button id="hiden-text-6" onclick="toggleText(6)">ver mas</button>
+
+            <div id="more-info-6" class="hidden more-info">
+
+               <p> Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
+                  quedan solos, pueden adoptar comportamientos destructivos.
+               </p>
+               <div>
+                  <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
+                     informacion</a>
+               </div>
+            </div>
          </section>
 
          <section class="animales__item">
-            <img src="/Recursos/imagenes/pastor-aleman.jpeg" alt="perro labrador">
+            <img src="../../Recursos/imagenes/pastor-aleman.jpeg" alt="perro labrador">
             <h2> Pastor Aleman</h2>
-            <p>El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
-               excelente compañero de familia. Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
-               quedan solos, pueden adoptar comportamientos destructivos.
+            <p>
+               El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
+               excelente compañero de familia.
             </p>
-            <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
-               informacion</a>
+
+            <button id="hiden-text-7" onclick="toggleText(7)">ver mas</button>
+
+            <div id="more-info-7" class="hidden more-info">
+
+               <p>
+                  Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
+                  quedan solos, pueden adoptar comportamientos destructivos.
+               </p>
+               <div>
+
+                  <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
+                     informacion</a>
+               </div>
+
+            </div>
          </section>
 
          <section class="animales__item">
-            <img src="/Recursos/imagenes/pastor-aleman.jpeg" alt="perro labrador">
+            <img src="../../Recursos/imagenes/pastor-aleman.jpeg" alt="perro labrador">
             <h2> Pastor Aleman</h2>
-            <p>El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
-               excelente compañero de familia. Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
-               quedan solos, pueden adoptar comportamientos destructivos.
+            <p>
+               El Labrador cuenta con múltiples rasgos adorables: es inteligente, es fácil de adiestrar y es un
+               excelente compañero de familia.
             </p>
-            <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
-               informacion</a>
+
+            <button id="hiden-text-8" onclick="toggleText(8)">ver mas</button>
+
+            <div id="more-info-8" class="hidden more-info">
+
+               Necesitan practicar ejercicio moderado porque, en caso contrario, o si se
+               quedan solos, pueden adoptar comportamientos destructivos.
+               <div>
+                  <a title="mas informacion" target="_blank" href="https://es.wikipedia.org/wiki/Pastor_alem%C3%A1n">mas
+                     informacion</a>
+               </div>
+
+            </div>
          </section>
 
       </section>
@@ -177,7 +243,7 @@
    </main>
 
    <footer>
-      Copyright &copy; 2023. Created by <a href="/html/sobre-mi.html">César</a>
+      Copyright &copy; 2023. Created by <a href="../../html/sobre-mi.html">César</a>
    </footer>
 
 </body>
