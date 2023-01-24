@@ -50,6 +50,7 @@ header {
     z-index: 10;
 }
 
+
 header ul{
     list-style: none;
     display: flex;
