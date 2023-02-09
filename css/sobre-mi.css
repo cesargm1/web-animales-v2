@@ -24,22 +24,15 @@ section{
   gap: 2em;
 }
 .item{
-    display: flex;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url("/web-animales-v2/Recursos/imagenes/SobreMi/basquet.jpg");
+    opacity: .4;
 }
-
-.contentimg{
-    background-color: black;
-    width: 100%;
-    height: 100%;
-}
-
-img{
+.item-badground{
     width: 300px;
     height: 400px;
-    display: grid;
     gap: 1em;
     object-fit: cover;
     background-position: center;
     border-radius: 15px;
-    
 }
+
