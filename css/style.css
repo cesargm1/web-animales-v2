@@ -25,12 +25,28 @@
     display: none !important;
 }
 
+
 a {
-    text-decoration: none;
-    color: var(--enlace-color);
-    cursor: pointer;
+  
 }
 
+a:hover{
+    background-size: 100% 2px;
+
+}
+.subrayado {
+    background-image: none;
+    transition: none;
+    text-decoration: none;
+    cursor: pointer;
+    text-decoration: none;
+    background-image: linear-gradient(currentColor, currentColor);
+    background-position: 0% 100%;
+    background-repeat: no-repeat;
+    background-size: 0% 2px;
+    transition: background-size .3s;
+    font-size: 18px;
+}
 
 body {
     width: 100%;
@@ -110,6 +126,14 @@ header .submenu {
 header .submenu a {
     color: #434343;
 }
+
+header a {
+    text-decoration: none;
+    color: var(--enlace-color);
+}
+
+
+
 
 main {
     margin-top: 80px;

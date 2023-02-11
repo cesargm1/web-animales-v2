@@ -15,6 +15,9 @@ main{
     justify-content: space-evenly;
     flex: 1;
     flex-wrap: wrap;
+    background: url(/web-animales-v2/Recursos/imagenes/fondos/fondo-web.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 .item{

@@ -1,6 +1,17 @@
+main{
+    background: url(/web-animales-v2/Recursos/imagenes/fondos/fondo-web.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    color: rgb(255, 255, 247);
+    margin-bottom: .5em;
+}
 .descripcion{
     display: flex;
     flex-wrap: wrap;
+    color: rgb(255, 255, 247);
 }
 
 .animales{
