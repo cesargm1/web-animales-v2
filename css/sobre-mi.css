@@ -84,12 +84,16 @@ section{
 .item-6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
     url("/Recursos/imagenes/sobreMi/mandalorian.jpg");
-    background-position: center;
 }
 
-.center{
-    background-image: center;
+.item-7 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/Recursos/imagenes/sobreMi/stranger-things.jpg");
+}
 
+.item-8 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("/Recursos/imagenes/sobreMi/simson.webp");
 }
 
 

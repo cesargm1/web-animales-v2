@@ -1,4 +1,11 @@
 
+:root{
+    --section-li-problemas:rgb(201, 94, 76); ; 
+    --section-li-problemas-borde:rgb(167, 63, 45); 
+    --section-li-problemas-borde-hover:rgb(215, 166, 157); 
+    --section-li-problemas-hover:rgb(152, 36, 16); ; 
+}
+
 main{
     background: #003973; 
     background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
@@ -6,28 +13,77 @@ main{
     object-fit: cover;
     overflow: hidden;
     display: flex;
-    align-items: center;
+    flex-wrap: wrap;
     justify-content: center;
-    flex-direction: column;
 }
 
-.tabla{
-   width: 80%;
-   border: solid black 3px;
-   display: flex;
-   flex-direction: column;
-   position: relative;
-   
+.tabla {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1em;
 }
+
 .columna{
-    border: solid black 1px;
-    position: absolute;
-    right: 50%;
-    top: 50%;
+    width: 80%;
+    border: solid black 2px;
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(141, 219, 239);
+    opacity: .7;
 }
 
 .fila{
-border: solid black 3px;
-padding: 1em;
+    width: 100%;
+    border: solid black 2px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
 }
 
+main h2{
+    width: 100%;
+    background-color: #E5E5BE;
+    opacity: .8;
+    margin-top: 20px;
+    display: flex;
+}
+section h2{
+    display: flex;
+    justify-content: center;
+}
+
+main ul{
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin: 10px;
+}
+
+
+main img{
+    width: 40%;
+}
+
+.fila img{
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    object-fit: cover;
+}
+
+section li  {
+    width: 100%;
+    background-color: var(--section-li-problemas);
+    padding: 1em;
+    list-style: none;
+    color: white;
+    border: solid 5px var(--section-li-problemas-borde);
+}
+section li:hover{
+    background-color: var(--section-li-problemas-hover);
+    width: 100%;
+    border: solid 5px var(--section-li-problemas-borde-hover);
+}
