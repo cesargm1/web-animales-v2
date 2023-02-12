@@ -1,5 +1,7 @@
 main{
-    background: url(/web-animales-v2/Recursos/imagenes/fondos/fondo-web.jpg);
+    background: #003973; 
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
+    background: linear-gradient(to right, #E5E5BE, #003973); 
     background-repeat: no-repeat;
     background-size: cover;
 }

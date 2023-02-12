@@ -1,0 +1,33 @@
+
+main{
+    background: #003973; 
+    background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
+    background: linear-gradient(to right, #E5E5BE, #003973); 
+    object-fit: cover;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.tabla{
+   width: 80%;
+   border: solid black 3px;
+   display: flex;
+   flex-direction: column;
+   position: relative;
+   
+}
+.columna{
+    border: solid black 1px;
+    position: absolute;
+    right: 50%;
+    top: 50%;
+}
+
+.fila{
+border: solid black 3px;
+padding: 1em;
+}
+
