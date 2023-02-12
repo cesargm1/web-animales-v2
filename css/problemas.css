@@ -4,6 +4,15 @@
     --section-li-problemas-borde:rgb(167, 63, 45); 
     --section-li-problemas-borde-hover:rgb(215, 166, 157); 
     --section-li-problemas-hover:rgb(152, 36, 16); ; 
+    --section-solucion-h3:rgb(153, 230, 86); ;
+    --section-solucion-h3-hover:rgba(118, 194, 52, 0.765); ;
+    --section-solucion-border-hover:rgba(41, 74, 12, 0.765); ;
+    --main-solucion-ul-li:rgba(203, 246, 165, 0.765); ;
+    --main-solucion-ul-li-border:rgba(112, 180, 52, 0.765); ;
+    --main-solucion-ul-li-hover:rgba(41, 70, 15, 0.765); ;
+    --main-solucion-ul-li-border-hover:rgba(155, 244, 78, 0.765); ;
+    
+    
 }
 
 main{
@@ -54,6 +63,23 @@ section h2{
     display: flex;
     justify-content: center;
 }
+.fila  h3{
+    width: 100%;
+    background-color: var(--section-li-problemas);
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    border: 5px solid var(--section-li-problemas-hover);
+    transition:  background-color 1.5s linear ;
+    transition:border 1.5s linear;
+    
+}
+
+.fila h3:hover{
+    background-color: var(--section-li-problemas-borde-hover);
+    border: var(--section-li-problemas-hover);
+    border: solid 5px var(--section-li-problemas-borde-hover);
+}
 
 main ul{
     display: flex;
@@ -65,6 +91,7 @@ main ul{
 
 main img{
     width: 40%;
+    border-radius: 25px;
 }
 
 .fila img{
@@ -81,9 +108,34 @@ section li  {
     list-style: none;
     color: white;
     border: solid 5px var(--section-li-problemas-borde);
+    transition:background-color 1.5s linear;
+    transition:border 1.5s linear;
 }
 section li:hover{
     background-color: var(--section-li-problemas-hover);
     width: 100%;
     border: solid 5px var(--section-li-problemas-borde-hover);
+}
+
+section.solucion h3 {
+    width: 100%;
+    background-color: var(--section-solucion-h3);
+    border: solid 5px var(--section-solucion-border-hover-h3);
+    transition:all 1.5s linear;
+    transition:all 1.5s linear;
+}
+
+section.solucion h3:hover{
+    background-color: var(--section-solucion-h3-hover);
+    border: solid 5px var(--section-solucion-border-hover);
+}
+main .solucion ul li {
+    background-color:var(--main-solucion-ul-li);
+   border:solid 5px var(--main-solucion-ul-li-border);
+   transition:all  1.5s linear;
+}
+
+main .solucion ul li:hover{
+    background-color: var(--main-solucion-ul-li-hover);
+    border: solid 5px var(--main-solucion-ul-li-border-hover);
 }

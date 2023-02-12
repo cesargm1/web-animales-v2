@@ -23,6 +23,8 @@ main{
 }
 
 
+
+
 .box-titulo{
     width: 300px;
     padding: 15px;
@@ -30,6 +32,10 @@ main{
     background-color: var(--nav-footer-bg-color);
     color: var(--nav-footer-fg-color);
     transition: box-shadow 4s linear;
+}
+
+.icono{
+    padding: 1em;
 }
 
 .box-titulo:hover{
