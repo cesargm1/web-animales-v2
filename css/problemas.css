@@ -11,8 +11,7 @@
     --main-solucion-ul-li-border:rgba(112, 180, 52, 0.765); ;
     --main-solucion-ul-li-hover:rgba(41, 70, 15, 0.765); ;
     --main-solucion-ul-li-border-hover:rgba(155, 244, 78, 0.765); ;
-    
-    
+    --main-solucion-ul-li-text:rgba(28, 29, 28, 0.776); ;
 }
 
 main{
@@ -29,13 +28,14 @@ main{
 .tabla {
     display: flex;
     flex-direction: row;
-    align-items: center;
+    align-items: flex-start;
     justify-content: center;
+    flex-wrap: wrap;
     gap: 1em;
 }
 
 .columna{
-    width: 80%;
+    flex: 1;
     border: solid black 2px;
     display: flex;
     flex-direction: column;
@@ -90,7 +90,7 @@ main ul{
 
 
 main img{
-    width: 40%;
+    height: 200px;
     border-radius: 25px;
 }
 
@@ -106,7 +106,7 @@ section li  {
     background-color: var(--section-li-problemas);
     padding: 1em;
     list-style: none;
-    color: white;
+    color: var(--main-solucion-ul-li-text);
     border: solid 5px var(--section-li-problemas-borde);
     transition:background-color 1.5s linear;
     transition:border 1.5s linear;
@@ -115,6 +115,14 @@ section li:hover{
     background-color: var(--section-li-problemas-hover);
     width: 100%;
     border: solid 5px var(--section-li-problemas-borde-hover);
+}
+
+.tipo-problema{
+   background-color: black;
+   color: white;
+    width: 100%;
+    height: 100%;
+    padding: 10px;
 }
 
 section.solucion h3 {
