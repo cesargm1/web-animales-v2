@@ -98,14 +98,63 @@ section{
 
 .item-9 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/simson.webp");
+    url("../recuros/imagenes/sobre-mi/star-wars.png");
 }
 
 .item-10 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/simson.webp");
+    url("../recuros/imagenes/sobre-mi/vengadores.webp");
 }
 
+.item-11 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/harry-potter.webp");
+}
+
+.item-12 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/señor-de-los-anillos.jpg");
+}
+
+.item-13 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/naruto.png");
+}
+
+.item-14 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/ataque-los-titanes.jpg");
+}
+
+.item-15 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/one-puch.jpeg");
+}
+
+.item-16 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/dragon-ball.jpg");
+}
+
+.item-17 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/colegio.jpg");
+}
+
+.item-18 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/instituto.jpg");
+}
+
+.item-19 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/superior.jpg");
+}
+
+.item-20 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/empresa.jpg");
+}
 
 
 
