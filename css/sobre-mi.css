@@ -59,41 +59,41 @@ section{
 
  .item-1{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/basquet.jpg")
+    url("../recuros/imagenes/sobre-mi/basquet.jpg")
 }
 
 .item-2{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/natacion.jpg")
+    url("../recuros/imagenes/sobre-mi/natacion.jpg")
 }
 
 .item-3{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/bici.jpg")
+    url("../recuros/imagenes/sobre-mi/bici.jpg")
 }
 .item-4{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/futbol.jpg")
+    url("../recuros/imagenes/sobre-mi/futbol.jpg")
 }
 
 .item-5{
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/the-boys.jpg")
+    url("../recuros/imagenes/sobre-mi/the-boys.jpg")
 }
 
 .item-6 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/mandalorian.jpg");
+    url("../recuros/imagenes/sobre-mi/mandalorian.jpg");
 }
 
 .item-7 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/stranger-things.jpg");
+    url("../recuros/imagenes/sobre-mi/stranger-things.jpg");
 }
 
 .item-8 {
     background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recursos/imagenes/sobreMi/simson.webp");
+    url("../recuros/imagenes/sobre-mi/simson.webp");
 }
 
 

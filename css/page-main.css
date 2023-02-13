@@ -9,7 +9,7 @@ body{
 }
 
 main{
-    background: url(../Recursos/imagenes/fondos/dia-de-los-animales.jpg);
+    background: url(../recuros/imagenes/fondos/dia-de-los-animales.jpg);
     background-size: cover;
     display: flex;
     align-items: center;

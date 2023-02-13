@@ -21,7 +21,7 @@ main{
 }
 
 .item{
-    background: url(../Recursos/imagenes/fondos/fondo-perros.jpg);
+    background: url(../recuros/imagenes/fondos/fondo-perros.jpg);
     display: flex;
     gap: 5em;
     flex-direction: column;
