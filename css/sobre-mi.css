@@ -96,6 +96,18 @@ section{
     url("../recuros/imagenes/sobre-mi/simson.webp");
 }
 
+.item-9 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/simson.webp");
+}
+
+.item-10 {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+    url("../recuros/imagenes/sobre-mi/simson.webp");
+}
+
+
+
 
 h2{
     color: aliceblue;
