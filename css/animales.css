@@ -7,13 +7,13 @@ main{
 }
 
 h1{
-    color: rgb(255, 255, 247);
+    color: rgb(31, 37, 36);
     margin-bottom: .5em;
 }
 .descripcion{
     display: flex;
     flex-wrap: wrap;
-    color: rgb(255, 255, 247);
+    color: rgb(43, 88, 66);
 }
 
 .animales{
