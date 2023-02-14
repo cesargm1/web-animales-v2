@@ -10,8 +10,7 @@ main{
     background-size: cover;
     background: #003973; 
     background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
-    background: linear-gradient(to right, #E5E5BE, #003973); 
-    
+    background: linear-gradient(to right, #E5E5BE, #003973);  
 }
 
 .titulo{
@@ -24,7 +23,6 @@ main{
     padding: 1em;
     border-radius: 2em;
 }
-
 
 section{
   display: flex;
@@ -157,7 +155,6 @@ section{
 }
 
 
-
 h2{
     color: aliceblue;
     font-weight: bold;
@@ -179,7 +176,6 @@ h2{
 .item:hover .frontal {
     top: -50%;
 }
-
 
 .item p {
     position: absolute;
