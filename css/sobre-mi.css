@@ -1,30 +1,29 @@
-
-main{
-    width: 100%;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    flex-wrap: wrap;
-    gap: 2em;
-    background-repeat: no-repeat;
-    background-size: cover;
-    background: #003973; 
-    background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
-    background: linear-gradient(to right, #E5E5BE, #003973);  
+main {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  flex-wrap: wrap;
+  gap: 2em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background: #003973;
+  background: -webkit-linear-gradient(to right, #e5e5be, #003973);
+  background: linear-gradient(to right, #e5e5be, #003973);
 }
 
-.titulo{
-    display: flex;
-    align-items: flex-end;
-    justify-content: center;
-    background: repeating-linear-gradient(transparent, #f1f9eb 40px),
+.titulo {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  background: repeating-linear-gradient(transparent, #f1f9eb 40px),
     repeating-linear-gradient(0.25turn, transparent, #d2eefa 20px);
-    width: 80%;
-    padding: 1em;
-    border-radius: 2em;
+  width: 80%;
+  padding: 1em;
+  border-radius: 2em;
 }
 
-section{
+section {
   display: flex;
   flex-wrap: wrap;
   justify-content: space-evenly;
@@ -32,174 +31,172 @@ section{
   gap: 2em;
 }
 
-.subtitulo{
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    justify-content: flex-start;
-    width: 100%;
+.subtitulo {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  justify-content: flex-start;
+  width: 100%;
 }
 
-.item{
-    background-position: center;
-    background-size: cover;
-    border-radius: 15px;
-    min-width: 300px;
-    min-height: 500px;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    flex-direction: column;
-    position: relative;
-    overflow: hidden;
-    padding: 10px;
+.item {
+  background-position: center;
+  background-size: cover;
+  border-radius: 15px;
+  min-width: 300px;
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  position: relative;
+  overflow: hidden;
+  padding: 10px;
 }
 
- .item-1{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/basquet.jpg")
+.item-1 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../recuros/imagenes/sobre-mi/basquet.jpg");
 }
 
-.item-2{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/natacion.jpg")
+.item-2 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../recuros/imagenes/sobre-mi/natacion.jpg");
 }
 
-.item-3{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/bici.jpg")
+.item-3 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../recuros/imagenes/sobre-mi/bici.jpg");
 }
-.item-4{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/futbol.jpg")
+.item-4 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../recuros/imagenes/sobre-mi/futbol.jpg");
 }
 
-.item-5{
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
-    url("../recuros/imagenes/sobre-mi/the-boys.jpg")
+.item-5 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../recuros/imagenes/sobre-mi/the-boys.jpg");
 }
 
 .item-6 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/mandalorian.jpg");
 }
 
 .item-7 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/stranger-things.jpg");
 }
 
 .item-8 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/simson.webp");
 }
 
 .item-9 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/star-wars.png");
 }
 
 .item-10 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/vengadores.webp");
 }
 
 .item-11 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/harry-potter.webp");
 }
 
 .item-12 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/señor-de-los-anillos.jpg");
 }
 
 .item-13 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/naruto.png");
 }
 
 .item-14 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/ataque-los-titanes.jpg");
 }
 
 .item-15 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/one-puch.jpeg");
 }
 
 .item-16 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/dragon-ball.jpg");
 }
 
 .item-17 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/colegio.jpg");
 }
 
 .item-18 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/instituto.jpg");
 }
 
 .item-19 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/superior.jpg");
 }
 
 .item-20 {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), 
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
     url("../recuros/imagenes/sobre-mi/empresa.jpg");
 }
 
-
-h2{
-    color: aliceblue;
-    font-weight: bold;
-    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    text-transform: uppercase;
-    text-align: center;
-    font-size: 30px;
-    padding: 1em;
-    transition: top 0.2s ease-in;
+h2 {
+  color: aliceblue;
+  font-weight: bold;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
+  text-transform: uppercase;
+  text-align: center;
+  font-size: 30px;
+  padding: 1em;
+  transition: top 0.2s ease-in;
 }
 
 .item .frontal {
-    position: absolute;
-    top: 50%;
-    transform: translateY(-50%);
-    transition: top 1s ease-in;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  transition: top 1s ease-in;
 }
 
 .item:hover .frontal {
-    top: -50%;
+  top: -50%;
 }
 
 .item p {
-    position: absolute;
-    top: 100%;
-    transition: top 1s ease-in;
-    padding: 2em;
-    font-size: 20px;
-    color: rgb(255, 245, 245); ;
+  position: absolute;
+  top: 100%;
+  transition: top 1s ease-in;
+  padding: 2em;
+  font-size: 20px;
+  color: rgb(255, 245, 245);
 }
 
-.item:hover p{ 
-    top: 5%;
+.item:hover p {
+  top: 5%;
 }
 
-button{
-    background: linear-gradient(#fef5eb, #d2effc);
-    border: 6px solid rgb(155, 153, 152);
-    border-radius: 25px;
-    padding: 1.5em;
-    transition: top 0.2s ease-in;
+button {
+  background: linear-gradient(#fef5eb, #d2effc);
+  border: 6px solid rgb(155, 153, 152);
+  border-radius: 25px;
+  padding: 1.5em;
+  transition: top 0.2s ease-in;
 }
 
-button::first-letter{
-    text-transform: uppercase;
-
+button::first-letter {
+  text-transform: uppercase;
 }
-

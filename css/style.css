@@ -1,164 +1,150 @@
 :root {
-    --body-bg: #FFFFFF;
-    --body-color: #000000;
-    --nav-header-bg-color: rgb(154, 206, 241);
-    --nav-header-fg-color: rgb(39, 39, 39);
-    --nav-footer-bg-color: rgb(38, 38, 38);
-    --nav-footer-fg-color: rgb(186, 186, 186);
-    --enlace-color : rgb(24, 22, 22);
-    --header-hover-color:rgb(88, 170, 224); ; 
+  --body-bg: #ffffff;
+  --body-color: #000000;
+  --nav-header-bg-color: rgb(154, 206, 241);
+  --nav-header-fg-color: rgb(39, 39, 39);
+  --nav-footer-bg-color: rgb(38, 38, 38);
+  --nav-footer-fg-color: rgb(186, 186, 186);
+  --enlace-color: rgb(24, 22, 22);
+  --header-hover-color: rgb(88, 170, 224);
 }
 
- /*modo oscuro*/
- @media (prefers-color-scheme: dark) {
-    :root {
-    }
- }
+/*modo oscuro*/
+@media (prefers-color-scheme: dark) {
+  :root {
+  }
+}
 
 * {
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 .hidden {
-    display: none !important;
+  display: none !important;
 }
-
 
 a {
-  
 }
 
-a:hover{
-    background-size: 100% 2px;
-
+a:hover {
+  background-size: 100% 2px;
 }
 .subrayado {
-    background-image: none;
-    transition: none;
-    text-decoration: none;
-    cursor: pointer;
-    text-decoration: none;
-    background-image: linear-gradient(currentColor, currentColor);
-    background-position: 0% 100%;
-    background-repeat: no-repeat;
-    background-size: 0% 2px;
-    transition: background-size .3s;
-    font-size: 18px;
+  background-image: none;
+  transition: none;
+  text-decoration: none;
+  cursor: pointer;
+  text-decoration: none;
+  background-image: linear-gradient(currentColor, currentColor);
+  background-position: 0% 100%;
+  background-repeat: no-repeat;
+  background-size: 0% 2px;
+  transition: background-size 0.3s;
+  font-size: 18px;
 }
 
 body {
-    width: 100%;
-    min-height: 100vh;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+  width: 100%;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
-
 
 header {
-    background-color: var(--nav-header-bg-color);
-    color: var(--nav-header-fg-color);
-    width: 100%;
-    padding: 20px;
-    z-index: 10;
-    transition: background-color 0.5s linear;
+  background-color: var(--nav-header-bg-color);
+  color: var(--nav-header-fg-color);
+  width: 100%;
+  padding: 20px;
+  z-index: 10;
+  transition: background-color 0.5s linear;
 }
-header:hover{
-    background-color: var(--header-hover-color);
-    
+header:hover {
+  background-color: var(--header-hover-color);
 }
-
 
 header nav {
-    display: flex;
-    justify-content: space-between;
-    gap: 10px;
+  display: flex;
+  justify-content: space-between;
+  gap: 10px;
 }
 
-
-header ul{
-    list-style: none;
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-    justify-items: center;
-    justify-content: space-evenly;
+header ul {
+  list-style: none;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-items: center;
+  justify-content: space-evenly;
 }
 
-
-
-header .ul--li--img{
-    width: 36px;
-    height: 36px;
-    border-radius: 50%;
-    object-fit: cover;
+header .ul--li--img {
+  width: 36px;
+  height: 36px;
+  border-radius: 50%;
+  object-fit: cover;
 }
 
-header .ul__li__a-casa{
-    width: 2em;
-    border-radius: 50%;
+header .ul__li__a-casa {
+  width: 2em;
+  border-radius: 50%;
 }
 
-
-header li{
-    font-size: 17px;
-    text-decoration: none;
-    /* width: 10%;
+header li {
+  font-size: 17px;
+  text-decoration: none;
+  /* width: 10%;
      bheight: 50%; */
 }
 
 header .nav__menu {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: space-evenly;
-    gap: 10px 2em;
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 10px 2em;
 }
 
 header .submenu {
-    position: absolute;
-    background-color: aliceblue;
-    color: #434343;
-    display: flex;
-    flex-direction: column;
-    gap: 1em;
-    padding: 1em;
-    align-items: flex-start;
-    box-shadow: rgba(75, 37, 37, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+  position: absolute;
+  background-color: aliceblue;
+  color: #434343;
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  align-items: flex-start;
+  box-shadow: rgba(75, 37, 37, 0.25) 0px 14px 28px,
+    rgba(0, 0, 0, 0.22) 0px 10px 10px;
 }
 
 header .submenu a {
-    color: #434343;
+  color: #434343;
 }
 
 header a {
-    text-decoration: none;
-    color: var(--enlace-color);
-    white-space: nowrap;
+  text-decoration: none;
+  color: var(--enlace-color);
+  white-space: nowrap;
 }
-
-
-
 
 main {
-    background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
-    flex: 1;
-    padding: 1em;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  flex: 1;
+  padding: 1em;
 }
 
-
 footer {
-    background-color: var(--nav-footer-bg-color);
-    color: var(--nav-footer-fg-color);
-    padding: 30px;
-    text-align: center;
-    
+  background-color: var(--nav-footer-bg-color);
+  color: var(--nav-footer-fg-color);
+  padding: 30px;
+  text-align: center;
 }
 
 footer a {
-    color: var(--nav-footer-fg-color);
+  color: var(--nav-footer-fg-color);
 }

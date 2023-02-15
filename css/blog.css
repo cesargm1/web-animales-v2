@@ -82,7 +82,7 @@ img {
   justify-content: center;
   align-items: center;
   width: 85%;
-  height: 300px;
+  min-height: 300px;
   overflow: hidden;
   background: #90a2da;
   opacity: 0.5;
