@@ -1,148 +1,144 @@
-
-:root{
-    --section-li-problemas:rgb(201, 94, 76); ; 
-    --section-li-problemas-borde:rgb(167, 63, 45); 
-    --section-li-problemas-borde-hover:rgb(215, 166, 157); 
-    --section-li-problemas-hover:rgb(152, 36, 16); ; 
-    --section-solucion-h3:rgb(153, 230, 86); ;
-    --section-solucion-h3-hover:rgba(118, 194, 52, 0.765); ;
-    --section-solucion-border-hover:rgba(41, 74, 12, 0.765); ;
-    --main-solucion-ul-li:rgba(203, 246, 165, 0.765); ;
-    --main-solucion-ul-li-border:rgba(112, 180, 52, 0.765); ;
-    --main-solucion-ul-li-hover:rgba(41, 70, 15, 0.765); ;
-    --main-solucion-ul-li-border-hover:rgba(155, 244, 78, 0.765); ;
-    --main-solucion-ul-li-text:rgba(28, 29, 28, 0.776); ;
+:root {
+  --section-li-problemas: rgb(201, 94, 76);
+  --section-li-problemas-borde: rgb(167, 63, 45);
+  --section-li-problemas-borde-hover: rgb(215, 166, 157);
+  --section-li-problemas-hover: rgb(152, 36, 16);
+  --section-solucion-h3: rgb(153, 230, 86);
+  --section-solucion-h3-hover: rgba(118, 194, 52, 0.765);
+  --section-solucion-border-hover: rgba(41, 74, 12, 0.765);
+  --main-solucion-ul-li: rgba(203, 246, 165, 0.765);
+  --main-solucion-ul-li-border: rgba(112, 180, 52, 0.765);
+  --main-solucion-ul-li-hover: rgba(41, 70, 15, 0.765);
+  --main-solucion-ul-li-border-hover: rgba(155, 244, 78, 0.765);
+  --main-solucion-ul-li-text: rgba(28, 29, 28, 0.776);
+  --section-li-solucion: rgba(112, 180, 52, 0.765);
 }
 
-main{
-    background: #003973; 
-    background: -webkit-linear-gradient(to right, #E5E5BE, #003973); 
-    background: linear-gradient(to right, #E5E5BE, #003973); 
-    object-fit: cover;
-    overflow: hidden;
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+main {
+  background: #003973;
+  background: -webkit-linear-gradient(to right, #e5e5be, #003973);
+  background: linear-gradient(to right, #e5e5be, #003973);
+  object-fit: cover;
+  overflow: hidden;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .tabla {
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 1em;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 1em;
 }
 
-.columna{
-    flex: 1;
-    border: solid black 2px;
-    display: flex;
-    flex-direction: column;
-    background-color: rgb(141, 219, 239);
-    opacity: .7;
+.columna {
+  flex: 1;
+  border: solid black 2px;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(141, 219, 239);
 }
 
-.fila{
-    width: 100%;
-    border: solid black 2px;
-    padding: 10px;
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
+.fila {
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+}
+.problema {
+  border-top: 2px solid black;
 }
 
-main h2{
-    width: 100%;
-    background-color: #E5E5BE;
-    opacity: .8;
-    margin-top: 20px;
-    display: flex;
+main h2 {
+  width: 100%;
+  background-color: #e5e5be;
+  opacity: 0.8;
+  margin-top: 20px;
+  display: flex;
 }
-section h2{
-    display: flex;
-    justify-content: center;
-}
-.fila  h3{
-    width: 100%;
-    background-color: var(--section-li-problemas);
-    padding: 2em;
-    display: flex;
-    justify-content: center;
-    border: 5px solid var(--section-li-problemas-hover);
-    transition:  background-color 1.5s linear ;
-    transition:border 1.5s linear;
-    
+section h2 {
+  display: flex;
+  justify-content: center;
 }
 
-.fila h3:hover{
-    background-color: var(--section-li-problemas-borde-hover);
-    border: var(--section-li-problemas-hover);
-    border: solid 5px var(--section-li-problemas-borde-hover);
+main ul {
+  display: flex;
+  flex-direction: column;
+  gap: 2em;
+  margin: 10px;
 }
 
-main ul{
-    display: flex;
-    flex-direction: column;
-    gap: 2em;
-    margin: 10px;
+main img {
+  height: 200px;
+  border-radius: 25px;
 }
 
-
-main img{
-    height: 200px;
-    border-radius: 25px;
+.fila img {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+  object-fit: cover;
 }
 
-.fila img{
-    display: flex;
-    justify-content: center;
-    width: 100%;
-    object-fit: cover;
+section li {
+  width: 100%;
+  list-style: none;
+  color: var(--main-solucion-ul-li-text);
 }
 
-section li  {
-    width: 100%;
-    background-color: var(--section-li-problemas);
-    padding: 1em;
-    list-style: none;
-    color: var(--main-solucion-ul-li-text);
-    border: solid 5px var(--section-li-problemas-borde);
-    transition:background-color 1.5s linear;
-    transition:border 1.5s linear;
-}
-section li:hover{
-    background-color: var(--section-li-problemas-hover);
-    width: 100%;
-    border: solid 5px var(--section-li-problemas-borde-hover);
+section li h3 {
+  width: 100%;
+  background-color: #000;
+  padding: 0.5em;
+  display: flex;
+  justify-content: center;
+  transition: background-color 1.5s linear;
+  transition: border 1.5s linear;
+  color: rgb(255, 255, 255);
 }
 
-.tipo-problema{
-   background-color: black;
-   color: white;
-    width: 100%;
-    height: 100%;
-    padding: 10px;
+section li h3:hover {
+  background-color: var(--section-li-problemas-borde-hover);
+  border: var(--section-li-problemas-hover);
+  border: solid 5px var(--section-li-problemas-borde-hover);
+}
+
+.tipo-problema {
+  background-color: var(--section-li-problemas);
+  color: white;
+  width: 100%;
+  padding: 10px;
+}
+
+.tipo-solucion {
+  background-color: var(--section-li-solucion);
+  color: white;
+  width: 100%;
+  padding: 10px;
 }
 
 section.solucion h3 {
-    width: 100%;
-    background-color: var(--section-solucion-h3);
-    border: solid 5px var(--section-solucion-border-hover-h3);
-    transition:all 1.5s linear;
-    transition:all 1.5s linear;
+  width: 100%;
+  background-color: var(--section-solucion-h3);
+  border: solid 5px var(--section-solucion-border-hover-h3);
+  transition: all 1.5s linear;
+  transition: all 1.5s linear;
 }
 
-section.solucion h3:hover{
-    background-color: var(--section-solucion-h3-hover);
-    border: solid 5px var(--section-solucion-border-hover);
+section.solucion h3:hover {
+  background-color: var(--section-solucion-h3-hover);
+  border: solid 5px var(--section-solucion-border-hover);
 }
 main .solucion ul li {
-    background-color:var(--main-solucion-ul-li);
-   border:solid 5px var(--main-solucion-ul-li-border);
-   transition:all  1.5s linear;
+  background-color: var(--main-solucion-ul-li);
+  border: solid 5px var(--main-solucion-ul-li-border);
+  transition: all 1.5s linear;
 }
 
-main .solucion ul li:hover{
-    background-color: var(--main-solucion-ul-li-hover);
-    border: solid 5px var(--main-solucion-ul-li-border-hover);
+main .solucion ul li:hover {
+  background-color: var(--main-solucion-ul-li-hover);
+  border: solid 5px var(--main-solucion-ul-li-border-hover);
 }
