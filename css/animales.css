@@ -57,6 +57,20 @@ section {
     rgba(0, 0, 0, 0.07) 0px 16px 32px, rgba(0, 0, 0, 0.07) 0px 32px 64px;
 }
 
+.animales__item section {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  width: 100%;
+}
+
+.animales__item section p {
+  flex: 1;
+  margin: 16px 0;
+}
+
 .animales__item img {
   width: 150px;
   height: 150px;
